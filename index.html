@@ -8,8 +8,18 @@
     <style>
         body{
             background-image: url(https://www.indyturk.com/sites/default/files/article/main_image/2022/08/01/983076-1343983157.jpg) ;
+            background-repeat: no-repeat;
+            background-size: 100%;
             padding: 50px 200px 20px 200px;
+           
             
+        }
+        h1{
+            font-family: fantasy;
+            font-weight: 100;
+        }
+        span{
+            color: red;
         }
         .div1{
             /* border: 1px solid white; */
@@ -17,7 +27,7 @@
         }
         .div2{
             border: 1px solid black;
-            width: 400px;
+            width: 300px;
             height: 800px;
             background-color:rgba(8, 8, 8, 0.884);
             margin: auto;
@@ -67,7 +77,7 @@
 </head>
 <body>
     <div class="div1">
-        <h1> NETFLİX</h1>
+        <h1> NET <span >FLİX</span></h1>
         <h3>Thank you for signing up at Netflix.Tell us more about your self</h3>
     </div>
     <div class="div2">
@@ -98,7 +108,7 @@
             <br><br>
 
             <p>Movie Type</p>
-            
+            <div class="div4">
             <input type="checkbox" name="comedy" id="Comedy">
             <label for="Comedy">Comedy</label>
             <br>
@@ -117,6 +127,8 @@
             <br>
             <input type="radio" name="Gender" id="other">
             <label for="other">Other</label>
+            </div>
+            
             <br>
             <p>Feed Back</p>
             <label for="feedback"></label>
